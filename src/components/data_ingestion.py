@@ -14,6 +14,7 @@ from dataclasses import dataclass
 
 from sklearn.datasets import load_breast_cancer
 data= load_breast_cancer()
+
 @dataclass
 
 class DataIngestionConfig:
